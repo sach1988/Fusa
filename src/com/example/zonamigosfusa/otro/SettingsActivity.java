@@ -102,6 +102,7 @@ public class SettingsActivity extends PreferenceActivity {
         // to reflect the new value, per the Android Design guidelines.
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_Location_key)));
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_metric_key)));
+        bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_idioma_key)));
     }
 
     /** {@inheritDoc} */
@@ -210,6 +211,7 @@ public class SettingsActivity extends PreferenceActivity {
             // guidelines.
             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_Location_key)));
             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_metric_key)));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_idioma_key)));
         }
     }
 }

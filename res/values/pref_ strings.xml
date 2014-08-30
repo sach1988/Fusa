@@ -29,4 +29,22 @@
         <item>1</item>
     </string-array>  
 
+    <string name="pref_idioma_label">Idioma</string>
+    <string name="pref_idioma_key" translatable="false">idioma</string>
+    <string name="pref_idioma_default" translatable="false">0</string>
+    
+    
+    <string-array name="pref_idioma_list_titles">
+        <item>español</item>
+        <item>Ingles</item>
+        <item>Italiano</item>
+    </string-array>
+    <string-array name="pref_idioma_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>  
+    
+    
+    
 </resources>

@@ -18,5 +18,14 @@
         android:entryValues="@array/pref_metric_list_values"
         android:negativeButtonText="@null"
         android:positiveButtonText="@null" />
+       
+       <ListPreference
+        android:key="@string/pref_idioma_key"
+        android:title="@string/pref_idioma_label"
+        android:defaultValue="@string/pref_idioma_default"
+        android:entries="@array/pref_idioma_list_titles"
+        android:entryValues="@array/pref_idioma_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
 
 </PreferenceScreen>
